@@ -1,9 +1,0 @@
-import os
-import shutil
-fromDirectory = 'C:/Users/reach/Downloads'
-toDirectory = 'C:/Users/reach/Downloads'
-list = os.listdir(fromDirectory)
-for file in list:
-    root,extension = os.path.splitext(file)
-    print(root)
-    print(extension)
